@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :blogs, :poems, only: [:index]
+  resources :blogs, :poems, only: [:index, :show]
 end
